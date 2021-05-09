@@ -1,0 +1,167 @@
+void main() {
+//   int a = 23;;
+// String b = "dhara";
+// double c = 2.97;
+// bool d = true;
+
+  //var use so that we can have diff data type
+  //list
+//   var list1 = ["Dhara", 2, true, "ali", "umair"];
+//   print(list1);
+//   print(list1[3]);
+//   print(list1.elementAt(3));
+//   //for replace( append)
+
+//   list1[2] = "hello";
+//   print(list1);
+//   print(list1.length);
+//   print(list1.first);
+//   print(list1.last);
+
+//   //replace range
+//   list1.replaceRange(2, 4, ["AHMED", false]);
+//   print(list1);
+//   list1.replaceRange(1, 3, ["red"]);
+//   print(list1);
+
+//   var list2 = [2, 87, 4, 78, 54, 78];
+//   list2.sort();
+//   print(list2);
+
+//   var list3 = ["dhara", "yellow", "hie", "heyyyy"];
+//   list3.sort();
+//   print(list3);
+
+//   var list5 = [];
+//   print(list5);
+//   if (list5.isEmpty) {
+//     print("Empty list found");
+//   }
+
+//   list5.add("dhara");
+//   list5.add("kumari");
+//   print(list5);
+//   list5.add("rajput");
+//   print(list5);
+
+//   if (list5.isNotEmpty) {
+//     print("list not empty");
+//   }
+
+//   list5.clear();
+//   print(list5);
+
+//   var list6 = [8, 4, 64, 3, 6, 3, 6, 35];
+
+//   var x = List.of(list6.reversed);
+//   print(x);
+
+//   print(list6.reversed);
+
+//   list6.addAll([12, 45, 67, 88, 77]);
+//   print(list6);
+
+//   var list7 = [23, 45, 655];
+//   list6.addAll(list7);
+//   print(list6);
+//   list6.sort();
+//   print(list6);
+
+//   list6.insert(4, 50);
+//   print(list6);
+
+//   var list8 = ["ali", "basit"];
+//   list8.insert(1, "huzaifa");
+//   list8.insertAll(1, ["aifa", "arisa", "noman"]);
+//   print(list8);
+
+//   list8.remove("arisa");
+//   print(list8);
+
+//   list8.removeAt(list8.length - 1);
+//   print(list8);
+
+//   var list9 = [23, -2, -1, 45, 655];
+//   list9.removeWhere((e) => e < 0);
+//   print(list9);
+//   list9.removeWhere((e) => e > 0);
+//   print(list9);
+
+//   var list10 = [23, -2, -1, 45, 655];
+//   list10.removeRange(2, 4);
+//   print(list10);
+
+//   var list11 = [2, 44, 56, 8, 9, 7];
+//   list11.retainWhere((e) => e > 7);
+//   print(list11);
+
+  //Dictionary
+//   var map1 = {1: 'dhara', 2: 'kumari', 4: "red"};
+//   print(map1);
+//   print(map1.keys);
+//   print(map1.values);
+//   print(map1.length);
+
+//   var map2 = [];
+//   print(map2.isEmpty);
+//   print(map1.isEmpty);
+//   map1[5] = "ahmed";
+//   print(map1);
+
+//   var map3 = {1: 'dhara', 2: 'kumari', 4: "red"};
+//   var abc = map3.putIfAbsent(3, () => 'mango');
+//   print(abc);
+//   print(map3);
+
+//   map3.addAll({6: 'abc', 7: 'bshd'});
+//   print(map3);
+
+//   var stu = {
+//     '12a': ["bilal", 20, 'b'],
+//     "13b": ["dhara", 21, 'a']
+//   };
+//   print(stu);
+
+//   var map5 = {1: 'dhara', 2: 'kumari', 4: "red"};
+//   map5.remove(1);
+//   map5.remove(6);
+//   print(map5);
+
+//   var map7 = {1: 'dhara', 2: 'kumari', 3: 'kaala', 4: "red"};
+
+//   map7.removeWhere((key, value) => value.startsWith('k'));
+//   print(map7);
+
+//   var map8 = {1: 'dhara', 3: 'kumar', 5: 'rajput'};
+//   var map9 = {2: 'abc', 4: 'xyz'};
+//   var map10 = {}..addAll(map8)..addAll(map9);
+//   print(map10);
+
+//   var map11 = {1: 'dhara', 3: 'kumar', 5: 'rajput'};
+//   var map12 = {2: 'abc', 4: 'xyz'};
+//   var map13 = {...map11, ...map12};
+//   print(map13);
+
+//   var list15 = [1, 2, 3, 4, 5];
+//   var list16 = ['dhara', "kumari", "rajput", "hell", "jeeh"];
+//   var map14 = Map.fromIterables(list15, list16);
+//   print(map14);
+
+//   var map16 = {1: 'dhara', 2: 'kumari', 3: 'kaala', 4: "red"};
+//   var a1 = map16.containsKey(1);
+//   print(a1);
+//   var a2 = map16.containsKey(7);
+//   print(a2);
+//   var a3 = map16.containsValue('dhara');
+//   print(a3);
+//   var a4 = map16.containsValue('dha');
+//   print(a4);
+
+//   var map17 = {1: 'dhara', 2: 'kumari', 3: 'kaala', 4: "red"};
+//   map17.forEach((key, value) {
+//     print("key are ${key}= and values are ${value}");
+//   });
+
+//   var abc2 = 'bilal';
+//   print('${abc2}');
+// }

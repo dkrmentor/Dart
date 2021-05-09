@@ -1,0 +1,147 @@
+void main() {
+  print("hello world");
+  var a = "hello world 2";
+  print(a);
+  var a2 = "hello world 3";
+  print(a2);
+  int num1 = 10;
+  print(num1);
+  double num2 = 10.2;
+  print(num2);
+  num num3 = 10;
+  print(num3);
+  num num4 = 10.2;
+  print(num4);
+  String b = "dhara 22";
+  print(b);
+
+  //ARTHEMATIC OPERATORS
+  int n1 = 5;
+  int n2 = 10;
+  bool check = n1 > n2;
+  // comment 5>10
+  print(check);
+
+  int n3 = 15;
+  int n4 = 10;
+  bool check2 = n3 > n4;
+  // comment 15>10
+  print(check2);
+
+  int n5 = 50;
+  int n6 = 23;
+  int outputAdd = n5 + n6;
+  print("Number 1 is :  ${n5} Number 2 is :  ${n6}");
+  print("Output with addition is ${outputAdd}");
+
+  int outputSub = n5 - n6;
+  print("Output with subtraction is ${outputSub}");
+
+  int outputMul = n5 * n6;
+  print("Output with multiplicatin is ${outputMul}");
+
+  double outputDiv = n5 / n6;
+  print("Output with division is ${outputDiv}");
+
+  int outputaDiv = n5 ~/ n6;
+  print("Output with division with integer is ${outputaDiv}");
+
+  int outputRem = n5 % n6;
+  print("Output with reminder is ${outputRem}");
+
+  int x = 5;
+  int y = x++;
+  print(y);
+
+  int x1 = 5;
+  int y1 = ++x1;
+  print(y1);
+
+  int x2 = 5;
+  int y2 = x2++;
+  print(y2);
+
+  int x3 = 5;
+  int y3 = ++x3;
+  print(y3);
+
+  int f = 3;
+  int g = f++ + --f - f + f++ - f-- + ++f;
+  print(g);
+
+  int m = 9;
+  int n = m + ++m - m-- + m++ + m - --m + ++m - m--;
+  print(n);
+
+  //EQUALITY AND RELATION OPERATOR
+  int age = 18;
+
+  bool checkGage = age > 17;
+  print(checkGage);
+
+  bool checklage = age < 19;
+  print(checklage);
+
+  bool check1age = age <= 19;
+  print(check1age);
+
+  bool check2age = age >= 18;
+  print(check2age);
+
+  bool checkEage = age == 18;
+  print(checkEage);
+
+  bool checkUage = age != 18;
+  print(checkUage);
+
+  //LOGICAL OPERATORS
+
+  int q = 10;
+  int r = 5;
+  bool status = q > 10 && r < 10;
+  //10>10 && 5<10
+  print(status);
+
+  bool status2 = q > 10 || r < 10;
+  //10>10 && 5<10
+  print(status2);
+
+  int mno = 15;
+  bool status3 = !(mno == 20);
+  //not equal to
+  print(status3);
+
+  bool status4 = !(mno > 20);
+  //not greater then
+  print(status4);
+
+  //CONDITIONARY STATEMENT
+
+  var i = 10;
+  var j = 10;
+  if (i == j) {
+    print("i is equal to j");
+  } else {
+    print("i is not equal to j");
+  }
+
+  var ii = "dhara";
+  var jj = "dhara";
+  if (ii == jj) {
+    print("i is equal to j");
+  } else {
+    print("i is not equal to j");
+  }
+
+  var i2 = 15;
+  var j2 = 18;
+  if (i2 == j2) {
+    print("i is equal to j");
+  } else if (i2 > j2) {
+    print("i is greater then j");
+  } else if (i2 < j2) {
+    print("i is less then j");
+  } else {
+    print("cant check");
+  }
+}

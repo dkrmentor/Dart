@@ -1,0 +1,113 @@
+ void main() {
+ abc();
+ add();
+   print(s1 marks);
+ total(54,67 ,87);
+     print(s2 marks);
+ total(43,57 ,37);
+     print(s3 marks);
+ total(63,27 ,17);
+     print(s1 marks with return keyword);
+ print(tr(54,67 ,87));
+     print(s2 marks with return keyword);
+ print(tr(43,57,37));
+   print(s3 marks with return keyword);
+ print(tr(63,27 ,17));
+
+ }
+ arrow function
+ void main() = abc();
+
+ dynamic used as var of function
+ dynamic abc(){
+   print(hello world);
+     print(dhara rajput);
+ }
+
+ dynamic add(){
+   var num1= 5;
+   var num2  = 10;
+   var sum = num1+num2;
+    print(sum  ${sum});
+ }
+
+ dynamic total(var s1, var s2 , var s3){
+   var total = s1+s2+s3;
+    print(total  ${total});
+ }
+
+ dynamic tr(var s1, var s2 , var s3){
+   var total = s1+s2+s3;
+    return total  ${total};
+ }
+
+topic 2
+ public can be access by all
+ protected can be searched , with the link we can join
+ secret cant be searched (private) one
+
+  inheritance means parent child relation
+  if we want to add an additional feature we use inheritance
+  enhance the existing code
+  subclass acquire property and behaviour of super class
+
+ encapsulation
+ capsule is container which lock portions within it
+ encapsulation means wrapping up data and method together in a single class
+ define the class property
+ it use public , protected as well as private
+
+ abstraction
+ show only essentialnecessary things , these are not the real classes, they are the ideal class,
+ we cant create instance of it
+ they are not the real class , they are ideal classes
+
+ polymorphism
+ overriding
+ overloading
+
+ making object basic class
+ void main() {
+  var car1 = Car();
+  car1.name =civic;
+  car1.display();
+
+  var car2 = Car();
+  car2.name =prius;
+  car2.display();
+ }
+ class Car{
+   var name=;
+   dynamic display(){
+     print(this car is ${name});
+   }
+ }
+
+ inheritance
+ void main() {
+   instance of circle class
+   var obj = Circle();
+   obj.dis();
+   obj.cir();
+
+     instance of square class
+   var obj2 = Square();
+   obj2.dis();
+   obj2.sq();
+ }
+ class Shape{
+   dynamic dis(){
+     print(Parent Class);
+   }
+ }
+ class Circle extends Shape{
+   dynamic cir(){
+     print(Circle Child Class);
+   }
+ }
+
+ class Square extends Shape{
+   dynamic sq(){
+     print(Square Child Class);
+   }
+ }
